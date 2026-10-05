@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biomed Innov Club</title>
+<meta name="description" content="Retrouve le Biomed Innov Club sur tous les réseaux.">
+<style>
+  :root {
+    --navy: #0c0c6b;
+    --navy-soft: #4a4f8f;
+    --red: #d03027;
+    --border: #d9dbe3;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    color: var(--navy);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  main {
+    width: 100%;
+    max-width: 440px;
+    padding: 32px 20px 48px;
+    text-align: center;
+  }
+  .logo {
+    width: 160px;
+    height: auto;
+    margin: 0 auto 8px;
+    display: block;
+  }
+  h1 { font-size: 1.6rem; margin: 12px 0 4px; }
+  .tagline { margin: 0 0 24px; color: var(--navy-soft); font-size: 1.05rem; }
+  .links { display: flex; flex-direction: column; gap: 14px; }
+  .btn {
+    display: block;
+    padding: 18px 16px;
+    border: 2px solid var(--border);
+    border-radius: 14px;
+    background: #fff;
+    color: var(--navy);
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .btn:hover, .btn:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(12, 12, 107, .12);
+    outline: none;
+  }
+  .btn.primary {
+    background: var(--red);
+    border-color: var(--red);
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="logo.png" alt="Logo Biomed Innov Club" onerror="this.style.display='none'">
+  <h1>Biomed Innov Club</h1>
+  <p class="tagline">Retrouve-nous partout</p>
+
+  <nav class="links">
+    <a class="btn" href="https://www.linkedin.com/in/biomed-innov-club/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://www.instagram.com/club_biomed_innov" target="_blank" rel="noopener">Instagram</a>
+    <a class="btn" href="https://www.facebook.com/innovbiomed" target="_blank" rel="noopener">Facebook</a>
+    <a class="btn" href="https://www.tiktok.com/@club.biomed.innov" target="_blank" rel="noopener">TikTok</a>
+    <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLScvjEJSMSfXLbXOf0_NncHDD7aokpAnv5bc8ttTc3zfdccNJQ/viewform" target="_blank" rel="noopener">Rejoins-nous : formulaire de recrutement</a>
+    <a class="btn" href="mailto:club.biomed.innov@gmail.com">Gmail : club.biomed.innov@gmail.com</a>
+  </nav>
+</main>
+</body>
+</html>
